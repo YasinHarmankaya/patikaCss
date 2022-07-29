@@ -1,9 +1,17 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
-.list-item{
+
+body {
+    max-width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+.list-item {
     list-style-type: none;
     margin: 10px;
     text-decoration: none;
@@ -14,39 +22,53 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.list-item > a{
+
+.list-item>a {
     text-decoration: none;
     color: black;
 }
+
 .list-item:hover {
     list-style-type: none;
     margin: 10px;
     text-decoration: none;
-    background-color:black;
-    color:white;
+    background-color: black;
+    color: white;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.list-item > a:hover{
+
+.list-item>a:hover {
     text-decoration: none;
     color: white;
 }
-div nav{
-    display:inline-flex;
+
+div nav {
+    display: inline-flex;
     flex: auto;
-    flex-direction: row-reverse;
     float: right;
     margin-top: 10px;
     margin-right: 10px;
     ri
 }
 
-.logo{
+.logo {
     margin-left: 10px;
     margin-top: 10px;
     height: 50px;
     width: 50px;
     display: inline;
+}
+
+.content {
+    margin: 20px 0 20px 0px;
+
+}
+
+div .content-main {
+    font-size: large;
+    text-align: justify;
+    text-justify: inter-word;
 }
