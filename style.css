@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
@@ -67,8 +68,26 @@ div nav {
 
 }
 
-div .content-main {
+.content-main {
     font-size: large;
     text-align: justify;
     text-justify: inter-word;
+}
+
+.products{
+    display: inline-flex;
+
+
+}
+.product-sub{
+    align-items: center;
+    display: inline-flex;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.product-image{
+    width: 200px;
+    height: 200px;
+
 }
