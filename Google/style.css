@@ -1,0 +1,61 @@
+#logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+#searchbar {
+    display: block;
+    text-align: center;
+    background-color: lightgray;
+    padding: 1px;
+}
+
+#searchinput {
+    display: inline-block;
+    justify-content: center;
+}
+
+#special_Search {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(175, 250, 225);
+    padding: 1px;
+    width: 40%;
+}
+
+a {
+    display: block;
+}
+
+.otherlinks {
+    display: flex;
+}
+
+#help {
+    text-align: center;
+    background-color: rgb(114, 247, 202);
+    width: 20%;
+    padding-top: 15px;
+
+}
+
+#update {
+    text-align: center;
+    background-color: rgb(0, 255, 170);
+    width: 40%;
+    padding: 1px;
+
+}
+
+.btn-update {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+}
+.archive{
+    margin-left: 10px;
+}
+#footer{
+    text-align: center;
+}
